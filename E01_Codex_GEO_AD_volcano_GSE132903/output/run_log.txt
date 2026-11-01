@@ -1,0 +1,45 @@
+[2026-11-01 16:46:21] Step 1: downloading GSE132903 series matrix
+[2026-11-01 16:46:30] Title: Transcriptome changes in the Alzheimer's middle temporal gyrus: importance of RNA metabolism and mitochondria-associated membrane (MAM) genes
+[2026-11-01 16:46:30] Platform: GPL10558 | features x samples: 42179 x 195
+[2026-11-01 16:46:30] Step 2: downloading platform annotation GPL10558
+[2026-11-01 16:46:31] GPL title: Illumina HumanHT-12 V4.0 expression beadchip
+[2026-11-01 16:46:31] Step 3: tissue = middle temporal gyrus
+[2026-11-01 16:46:31] diagnosis table: AD=97, ND=98
+[2026-11-01 16:46:31] Group sizes: AD = 97, Control (ND) = 98
+[2026-11-01 16:46:32] Step 4: quantiles = 5.914, 6.2, 6.334, 7.077, 11.713, 14.198 | needs log2: FALSE
+[2026-11-01 16:46:32] No log2 transform (data already VST/log2-scale, quantile normalized by submitters)
+null device 
+          1 
+[2026-11-01 16:46:35] Step 5: probes with symbol = 39310 -> unique genes = 28859 (duplicates collapsed by max mean expression)
+[2026-11-01 16:46:38] For reference: genes with |logFC|>1 & adj.P<0.05 = 29; adj.P<0.05 any FC = 14786
+[2026-11-01 16:46:38] Step 6: thresholds |logFC|>0.585 & adj.P<0.05 -> Up = 202, Down = 279
+
+Top5 Up (by logFC):
+   gene     logFC    adj.P.Val
+ SLC5A3 1.1919784 6.012546e-12
+   GFAP 1.0450340 5.090044e-11
+  APLNR 0.9777875 2.935780e-08
+   WWOX 0.9314498 4.089219e-09
+  CALD1 0.9216033 1.365977e-08
+
+Top5 Down (by logFC):
+   gene     logFC    adj.P.Val
+   SYT1 -1.418331 2.994560e-09
+   RGS4 -1.417728 6.840661e-11
+   CHGB -1.330826 1.549204e-10
+ STXBP1 -1.264076 9.157635e-11
+    VGF -1.229192 2.001923e-13
+
+Top10 by adj.P:
+     gene      logFC    adj.P.Val
+ KIAA0556  0.3347306 1.393033e-16
+    NIPBL  0.4867172 1.978932e-16
+   ZNF438  0.2376664 1.978932e-16
+     RBPJ  0.5387228 2.422246e-16
+    STAG1  0.3285446 2.722279e-16
+     MCM7  0.7737563 2.912816e-16
+ TMEM150A  0.5035825 2.912816e-16
+     SSH3  0.4301736 2.912816e-16
+  NDUFAB1 -0.5493206 5.460736e-16
+     HBP1  0.4132204 6.225361e-16
+[2026-11-01 16:46:47] Done. Figures in figures/, tables in output/
